@@ -1,0 +1,17 @@
+package ${mapper.packageName};
+
+<% for(import in mapper.mapperImplImports!){ %>
+import ${import};
+<% } %>
+
+/**
+ * ${context.bizChName}Mapper
+ *
+ * @author xiaobu
+ * @Date ${tool.currentTime()}
+ */
+@Mapper
+public interface ${context.bizEnBigName}Mapper extends MyMapper<${context.bizEnBigName}>  {
+
+
+}

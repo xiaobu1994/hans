@@ -1,0 +1,18 @@
+package ${entity.packageName};
+
+<% for(import in entity.entityImports!){ %>
+import ${import};
+<% } %>
+
+/**
+ * ${context.bizChName}实体类
+ *
+ * @author xiaobu
+ * @Date ${tool.currentTime()}
+ */
+@Data
+@Table
+public class ${context.bizEnBigName}  extends Base  {
+
+
+}
