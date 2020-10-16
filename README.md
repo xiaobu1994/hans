@@ -8,3 +8,6 @@ http://localhost:8888/swagger-ui.html
 
 @ApiIgnore
 忽略某个类
+
+
+#测试Idea的git操作
